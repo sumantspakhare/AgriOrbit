@@ -3,7 +3,7 @@
 ### NASA-Powered Climate Intelligence for Climate-Resilient Agriculture
 
 **AgriOrbit** is a farm-adaptation decision-support prototype developed
-by **Helios Analytics** for the **NASA Space Apps Challenge 2026**
+by **Siddhi Services** for the **NASA Space Apps Challenge 2026**
 challenge, **"Field Shift: Adapting Farms with NASA Data."**
 
 AgriOrbit brings together NASA environmental data, farmer-entered soil
@@ -327,7 +327,7 @@ Users should consider the following limitations:
 
 ## Project Team
 
-**Team:** Helios Analytics\
+**Team:** Siddhi Services\
 **Project:** AgriOrbit\
 **Challenge:** Field Shift: Adapting Farms with NASA Data\
 **Competition:** NASA Space Apps Challenge 2026

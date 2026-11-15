@@ -28,7 +28,7 @@ from datetime import date, timedelta
 # ==========================================
 
 st.set_page_config(
-    page_title="AgriOrbit | Helios Analytics",
+    page_title="AgriOrbit | Siddhi Services",
     page_icon="🌱",
     layout="wide"
 )
@@ -51,7 +51,7 @@ st.header("🚀 Discover AgriOrbit")
 st.markdown(
     """
     **AgriOrbit** is a farm adaptation decision-support
-    prototype developed by **Helios Analytics** for the
+    prototype developed by **Siddhi Services** for the
     NASA Space Apps Challenge 2026.
 
     It brings together environmental data, farmer-provided
@@ -186,7 +186,7 @@ st.subheader("👥 Project Team")
 
 st.markdown(
     """
-    **Team:** Helios Analytics
+    **Team:** Siddhi Services
 
     **Project:** AgriOrbit
 
@@ -3164,7 +3164,7 @@ if st.button("📄 Generate Farm Adaptation Report"):
 
     report_lines.append(
         "AgriOrbit is a farm adaptation decision-support "
-        "prototype developed by Helios Analytics."
+        "prototype developed by Siddhi Services."
     )
 
     report_lines.append(
@@ -3657,7 +3657,7 @@ if st.button("📄 Generate Farm Adaptation Report"):
 
     report_lines.append("")
     report_lines.append(
-        "Prepared by Helios Analytics | AgriOrbit"
+        "Prepared by Siddhi Services | AgriOrbit"
     )
 
     st.session_state["farm_adaptation_report"] = (
@@ -3836,7 +3836,7 @@ if "farm_adaptation_report" in st.session_state:
             canvas.drawString(
                 45,
                 20,
-                "Prepared by Helios Analytics"
+                "Prepared by Siddhi Services"
             )
 
             canvas.drawRightString(
@@ -3895,7 +3895,7 @@ if "farm_adaptation_report" in st.session_state:
 
         story.append(
             Paragraph(
-                "Prepared by Helios Analytics",
+                "Prepared by Siddhi Services",
                 cover_subtitle
             )
         )
@@ -3948,7 +3948,7 @@ if "farm_adaptation_report" in st.session_state:
         # Project overview
         story.append(Paragraph(
             "<b>Project:</b> AgriOrbit - NASA-powered farm adaptation "
-            "decision-support prototype developed by Helios Analytics.",
+            "decision-support prototype developed by Siddhi Services.",
             body_style
         ))
 
@@ -4993,7 +4993,7 @@ if rotation_ready:
         "soil conditions and local regulations with qualified",
         "agricultural experts before making farm decisions.",
         "",
-        "Prepared by Helios Analytics | AgriOrbit"
+        "Prepared by Siddhi Services | AgriOrbit"
     ])
 
     st.download_button(
@@ -5139,6 +5139,6 @@ management decisions.
 st.divider()
 
 st.caption(
-    "AgriOrbit | Developed by Helios Analytics | "
+    "AgriOrbit | Developed by Siddhi Services | "
     "NASA Space Apps Challenge 2026"
 )
