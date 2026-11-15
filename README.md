@@ -335,4 +335,4 @@ Users should consider the following limitations:
 ------------------------------------------------------------------------
 
 *AgriOrbit --- Exploring environmental intelligence for
-climate-resilient agriculture.*
+climate-resilient agriculture.\*
